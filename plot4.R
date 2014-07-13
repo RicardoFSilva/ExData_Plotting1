@@ -39,7 +39,7 @@ lines(data$Sub_metering_3, col="blue")
 axis(1, at=c(1, nrow(data)/2, nrow(data)),labels=c("Thu","Fri","Sat"))
 axis(2)
 box()
-legend("topright", pch = 151, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+legend("topright", pch = 151, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), bty="n")
 
 
 # Plot 2, 2 - bottom right
@@ -49,3 +49,4 @@ axis(2)
 box()
 
 dev.off()
+
