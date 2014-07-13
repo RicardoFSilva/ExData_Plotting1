@@ -18,7 +18,7 @@ par(mfrow = c(2, 2))
 
 
 # Plot 1, 1 - top left
-plot(data$Global_active_power, type="l", axes=F, xlab="", ylab="Global Active Power (kilowatts)")
+plot(data$Global_active_power, type="l", axes=F, xlab="", ylab="Global Active Power")
 axis(1, at=c(1, nrow(data)/2, nrow(data)),labels=c("Thu","Fri","Sat"))
 axis(2)
 box()
